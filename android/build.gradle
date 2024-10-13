@@ -26,6 +26,7 @@ android {
         namespace 'com.flutterbeacon'
     }
     compileSdk 34
+    ndkVersion '27.0.12077973'
 
     defaultConfig {
         minSdkVersion 24
@@ -40,5 +41,5 @@ dependencies {
     api 'androidx.legacy:legacy-support-v4:1.0.0'
     //api 'org.altbeacon:android-beacon-library:2.16.3'
     //api "org.altbeacon:android-beacon-library:2.17.1"
-    api "org.altbeacon:android-beacon-library:2.19"
+    api "org.altbeacon:android-beacon-library:2.20.5"
 }
